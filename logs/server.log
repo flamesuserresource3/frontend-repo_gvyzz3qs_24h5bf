@@ -1,0 +1,62 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 232 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.60.240:3000/
+2:25:01 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/ContentSections.jsx:15:40: ERROR: Expected "{" but found "\\"
+2:25:02 PM [vite] ✨ new dependencies optimized: @splinetool/react-spline, lucide-react
+2:25:02 PM [vite] ✨ optimized dependencies changed. reloading
+2:25:02 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/ContentSections.jsx:15:40: ERROR: Expected "{" but found "\\"
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+2:25:03 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/ContentSections.jsx:15:40: ERROR: Expected "{" but found "\\"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/ContentSections.jsx:15:40
+  
+  Expected "{" but found "\\"
+  13 |            </div>
+  14 |            <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  15 |              <Card icon={<User className=\"h-6 w-6 text-[#2563EB]\" />} title="Enter Your Details" desc="Add your experience, skills, and achievements — or import from LinkedIn." />
+     |                                          ^
+  16 |              <Card icon={<Wand2 className=\"h-6 w-6 text-[#06B6D4]\" />} title="Enhance with AI" desc="Let our AI refine your bullet points, tailor for roles, and fix wording." />
+  17 |              <Card icon={<Share2 className=\"h-6 w-6 text-[#2563EB]\" />} title="Download or Share" desc="Export to PDF or share a link with a beautiful, responsive view." />
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2:25:06 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/ContentSections.jsx:15:40: ERROR: Expected "{" but found "\\"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/ContentSections.jsx:15:40
+  
+  Expected "{" but found "\\"
+  13 |            </div>
+  14 |            <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  15 |              <Card icon={<User className=\"h-6 w-6 text-[#2563EB]\" />} title="Enter Your Details" desc="Add your experience, skills, and achievements — or import from LinkedIn." />
+     |                                          ^
+  16 |              <Card icon={<Wand2 className=\"h-6 w-6 text-[#06B6D4]\" />} title="Enhance with AI" desc="Let our AI refine your bullet points, tailor for roles, and fix wording." />
+  17 |              <Card icon={<Share2 className=\"h-6 w-6 text-[#2563EB]\" />} title="Download or Share" desc="Export to PDF or share a link with a beautiful, responsive view." />
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
